@@ -1,4 +1,3 @@
-
 A design for secure networking
 ==============================
 
@@ -28,3 +27,21 @@ Excerpt from [the Reuters article on LANL][Reuters]:
 > [...]
 
 [Reuters]: http://www.reuters.com/article/2013/01/07/us-huawei-alamos-idUSBRE90608B20130107 "Exclusive: U.S. nuclear lab removes Chinese tech over security fears"
+
+
+Premise
+-------
+
+Perhaps the design premise is easiest to understand from an abstract philosophical viewpoint.
+
+The claim being made is that you can't possibly know, without resorting to desctructive inspection
+of the hardware, what the true functionality is that is implemented in your low-level
+networking hardware, that is, the components dealing with the physical layer.
+
+Therefore, you can't prove the components are secure.
+
+Therefore, it must be made irrelevant whether the components are secure or not, so that
+you don't need to trust that they are secure.
+
+Therefore, the design goal is to make it irrelevant whether your low-level networking hardware
+components are secure or not.
